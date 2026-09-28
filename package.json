@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/readrest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read structured JSON rest payloads without a heavyweight toolkit.",
+  "bin": {
+    "readrest": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/readrest.git"
+  },
+  "homepage": "https://theworker02.github.io/readrest/",
+  "keywords": [
+    "read",
+    "rest",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
